@@ -1,0 +1,47 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real numero1 , numero2
+		inteiro opcoes
+
+	escreva("Digite um número : ")
+	leia(numero1)
+	limpa()
+	escreva("Digite outro número : ")
+	leia(numero2)
+	limpa()
+
+	escreva("escolha  o que gostaria de fazer com esses números :\n1.Somar\n2.Subtrair\n3.Multiplicar\n4.Dividir\nResposta : ")
+	leia(opcoes)
+
+	escolha (opcoes) 
+	{
+		caso 1 : 
+			escreva("a soma dos dois numeros digitados sera : ",numero1 + numero2)
+			pare
+			
+		caso 2 : 
+			escreva("a subtração dos dois numeros digitados sera : ",numero1 - numero2)
+			pare
+			
+		caso 3 : 
+			escreva("a multiplicação dos dois numeros digitados sera : ",numero1 * numero2)
+			pare
+
+		caso 4 : 
+			escreva("a divisão dos dois numeros digitados sera : ",numero1 / numero2)
+			pare
+
+		caso contrario : 
+			escreva("opção invalida")
+
+		
+	
+	
+
+	}
+	
+	}
+}
